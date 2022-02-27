@@ -1,0 +1,42 @@
+.navbar-nav li a {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+section {
+  padding-top: 6rem;
+}
+
+#Contact .icon {
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}
+
+.icon .tombol {
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  background: #f1f1f1;
+  margin: 20px 20px;
+  border-radius: 30%;
+  box-sizing: 0 5px 15px -5px #00000070;
+  overflow: hidden;
+  color: #16af25;
+}
+
+.tombol i {
+  transition: 0.2s linear;
+  font-size: 30px;
+  line-height: 90px;
+}
+
+.tombol:hover i {
+  color: black;
+}
+@media (max-width: 576px) {
+  .card-text {
+    font-size: 0.7em;
+    box-sizing: border-box;
+  }
+}
