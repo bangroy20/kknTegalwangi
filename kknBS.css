@@ -39,4 +39,8 @@ section {
     font-size: 0.7em;
     box-sizing: border-box;
   }
+
+  .container {
+    width: 93%;
+  }
 }
